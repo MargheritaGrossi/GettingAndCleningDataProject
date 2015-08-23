@@ -32,7 +32,7 @@ necessary. Read the training and the test set and merge them to create one data 
 set. Add subject and Activity columns in the merged data set.
 - Step 4. Appropriately labels the data set with descriptive variable
 names. Add activity labels to the merged data set
-- Step 5. Creates a second, independent tidy data set named "./data/tidy.txt"
+- Step 5. Creates a second, independent tidy data set named "data/tidy.txt"
 containing the average of each variable for each activity and each subject (60
 activities in total, 30 subjects in total, and 66 features).
 
@@ -40,9 +40,9 @@ activities in total, 30 subjects in total, and 66 features).
 
 - *run_analysis.R* : R-code run on data set
 
-- *tidy.txt* : clean data extracted from the original data using *run_analysis.R* 
+- *data/tidy.txt* : clean data extracted from the original data using *run_analysis.R* 
 
-- *CodeBook.md* : CodeBook reference to the variables in *tidy.txt*
+- *CodeBook.md* : CodeBook reference to the variables in *data/tidy.txt*
 
 - *README.md* : readme file
 
